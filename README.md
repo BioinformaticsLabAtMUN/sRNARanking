@@ -29,7 +29,7 @@ Options:
 		Show this help message and exit
 ```
 
-To run the script,  you need to specify the input feature table (required) and the filename of the output file (optional) as shown below:
+To run the script,  you need to specify the input feature table (required) and the filename of the output file (optional). A sample [feature table](FeatureTable.tsv) is provided. To run this script with the test data, just type on your terminal the command shown below (make sure that the feature table, the rsd file, and the R script are all in the working directory):
 
 ```
 Rscript --vanilla RF_classifier4sRNA.R -i FeatureTable.tsv -o outFile.txt
