@@ -38,4 +38,4 @@ Rscript --vanilla RF_classifier4sRNA.R -i FeatureTable.tsv -o outFile.txt
 ## Citing
 If you use this script, please cite:
 
-EJJ Eppenhof and L. Peña-Castillo, Prioritizing Bacterial small RNAs using Machine Learning. Under review. 2018.
+Eppenhof EJ, Peña-Castillo L. (2018) [Prioritizing bona fide bacterial small RNAs with machine learning classifiers. PeerJ Preprints 6:e26974v1](https://doi.org/10.7287/peerj.preprints.26974v1)
