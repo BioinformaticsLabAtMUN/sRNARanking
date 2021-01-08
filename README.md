@@ -35,6 +35,12 @@ To run the script,  you need to specify the input feature table (required) and t
 Rscript --vanilla RF_classifier4sRNA.R -i FeatureTable.tsv -o outFile.txt
 ```
 
+## Output
+
+The output file consists of three columns: the sequence ID, the probability of not being a sRNA, and the probability of being a SRNA (third column). Note that per each sequence the probability at the 2nd column + the probability at the 3rd column equals to 1. 
+
+Empirically we found that the minimum probability threshold to deem a sequence a likely sRNA  and obtain a precision above 0.5 is 0.4 in the third column. Take into account that setting a higher minimum probability threshold of being a sRNA will increase the precision of the results.
+
 ## Citing
 If you use this script, please cite:
 
