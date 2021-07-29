@@ -10,7 +10,7 @@ random_forest_model = pickle.load(open("RF_classifier4sRNA.sav", 'rb'))
 
 import pandas
 
-data = pandas.read_table(args.input)
+data = pandas.read_table(args.input, index_col=0)
 probability_predictions = random_forest_model.predict_proba(data)
 output_data = {"No sRNA": probability_predictions[:, 0], "sRNA": probability_predictions[:, 1]}
 
