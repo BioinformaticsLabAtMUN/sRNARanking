@@ -6,7 +6,7 @@ parser.add_argument('-o', '--out', help='Filename to output predictions [default
 args = parser.parse_args()
 
 import pickle
-random_forest_model = pickle.load(open("RF_classifier4sRNA.sav", 'rb'))
+random_forest_model = pickle.load(open("sRNARanking.sav", 'rb'))
 
 import pandas
 
