@@ -65,4 +65,6 @@ Empirically we found that the minimum probability threshold to deem a sequence a
 ## Citing
 If you use this script, please cite:
 
-Eppenhof EJ, Peña-Castillo L. (2019) [Prioritizing bona fide bacterial small RNAs with machine learning classifiers. PeerJ 7:e6304](https://doi.org/10.7717/peerj.6304)
+* Eppenhof EJ, Peña-Castillo L. (2019) [Prioritizing bona fide bacterial small RNAs with machine learning classifiers. PeerJ 7:e6304](https://doi.org/10.7717/peerj.6304)
+
+* Sorkhian, M., Nagari, M., Elsisy, M., Peña-Castillo, L. (2022). [Improving Bacterial sRNA Identification By Combining Genomic Context and Sequence-Derived Features. In: , et al. Computational Intelligence Methods for Bioinformatics and Biostatistics. CIBB 2021. Lecture Notes in Computer Science(), vol 13483. Springer, Cham.](https://doi.org/10.1007/978-3-031-20837-9_6)
